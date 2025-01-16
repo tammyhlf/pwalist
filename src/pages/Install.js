@@ -72,7 +72,7 @@ export default function Install() {
   return (
     <div>
       <div id="install-button" ref={installRef} onClick={onInstall}>
-        安装
+        install
       </div>
       {installing && <div>安装中: {progress}%</div>}
     </div>
